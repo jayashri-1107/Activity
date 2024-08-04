@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity</title>
+  <style>
+    /* Initial button style */
+    #colorButton  {
+      /* background-color: blue; */
+      color: black;
+      border: 2%;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: -30%;
+    }
+    #colorButton1 {
+      /* background-color: blue; */
+      color: black;
+      border: 2%;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: -30%;
+    }
+    #colorButton2 {
+      /* background-color: blue; */
+      color: black;
+      border: 2%;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: -30%;
+    }
+    #colorButton3 {
+      /* background-color: blue; */
+      color: black;
+      border: 2%;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: -30%;
+    }
+    #jayu {
+background-color: blue;
+color:white;
+      border: 2%;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 75%;
+    }
+  </style>
+</head>
+<body>
+    <center><br><br><br><h1>Q:5 I don't need your help while I can do it ____
+    </h1></center>
+
+  <!-- Button element -->
+  <center><br><br><br><br><br><button id="colorButton" onclick="changeColor()">A]  Yourself </button></center>
+  <center><br><br><button id="colorButton1" onclick="changeColor1()">B] Myself</button></center>
+  <center><br><br><button id="colorButton2" onclick="changeColor2()"> C]  Yourselves </button></center>
+  <center><br><br><button id="colorButton3" onclick="changeColor3()">D] Themselves</button></center>
+
+  <br><br><br><button id="jayu" onclick="myFunc()">NEXT</button>
+
+    <!--script to redirect to another webpage-->
+    <script>
+        function myFunc() {
+            window.location.href = "6th.html";
+        }
+    </script>
+  
+
+  <!-- JavaScript function to change color -->
+  <script>
+    function changeColor() {
+      // Get the button element
+      var button = document.getElementById('colorButton');
+
+      // Change the background color of the button
+      button.style.backgroundColor = button.style.backgroundColor === 'white' ? 'red' : 'white';
+    }
+  </script>
+   <script>
+    function changeColor1() {
+      // Get the button element
+      var button = document.getElementById('colorButton1');
+
+      // Change the background color of the button
+      button.style.backgroundColor = button.style.backgroundColor === 'white' ? 'green' : 'white';
+    }
+  </script>
+  <script>
+    function changeColor2() {
+      // Get the button element
+      var button = document.getElementById('colorButton2');
+
+      // Change the background color of the button
+      button.style.backgroundColor = button.style.backgroundColor === 'white' ? 'red' : 'white';
+    }
+  </script>
+  <script>
+    function changeColor3() {
+      // Get the button element
+      var button = document.getElementById('colorButton3');
+
+      // Change the background color of the button
+      button.style.backgroundColor = button.style.backgroundColor === 'white' ? 'red' : 'white';
+    }
+  </script>
+
+</body>
+</html>
